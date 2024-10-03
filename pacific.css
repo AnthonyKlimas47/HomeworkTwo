@@ -1,0 +1,167 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('ptrbackground.jpg') repeat; 
+    background-color: #00569f; 
+    color: #666666;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    padding: 20px 0;
+    min-height: 100vh; 
+}
+
+#wrapper {
+    max-width: 1200px;
+	height: auto;
+    width: 100%;
+    height: 90vh;
+    background-color: white;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 20px; 
+}
+
+header {
+    background-image: url('sunset.jpg');
+    background-size: cover;
+    color: white;
+    padding: 7px;
+    margin: -20px -20px 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+nav {
+    float: left;
+    background-color: #9dc3e6;
+    width: 200px;
+    height: 639.5px;
+    margin: -20px -20px 20px;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    margin-bottom: 15px;
+    background: none;
+    margin-bottom: -20px;
+    padding-top: 20px;
+}
+
+nav ul li a {
+    color: #00274d;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 1.4em;
+}
+
+#content {
+    display: flex; 
+    flex-wrap: wrap;
+    margin-left: 200px; 
+    padding: 20px;
+}
+
+#content img {
+    max-width: 300px; 
+    height: auto; 
+    margin-right: 20px; 
+    display: inline-block; 
+}
+
+
+h2 {
+    color: #2881d9;
+    font-weight: bold;
+    margin: 0; 
+    padding-top: 20px; 
+    width: 100%; 
+    text-align: left; 
+    display: block; 
+}
+
+
+img {
+    max-width: 300px; 
+    height: auto; 
+    margin-right: 20px;
+}
+
+p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+    flex: 1; 
+    display: block; 
+    
+}
+
+
+.resort {
+    font-weight: bold;
+    color: #2b7dd0;
+}
+
+ul {
+    list-style: none;
+    margin-bottom: 20px;
+}
+
+ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    background: url('marker.gif') no-repeat left center;
+}
+
+#contact {
+    margin-top: 20px;
+    font-size: 1.1em;
+}
+
+#contact .resort {
+    font-weight: bold;
+    color: #3a8ee1;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    color: #00274d;
+    margin-top: 20px;
+    font-style: italic;
+}
+
+footer a {
+    color: #00274d;
+    text-decoration: none;
+    color: rgb(51, 175, 216);
+    text-decoration: underline;
+}
+
+.image-text-container {
+    display: flex; 
+    flex-wrap: nowrap; 
+    width: 100%; 
+}
+
+#content p {
+    vertical-align: top; 
+}
+
+.image-text-container img {
+    max-width: 300px; 
+    height: auto;
+    margin-right: 20px; 
+}
+
+
